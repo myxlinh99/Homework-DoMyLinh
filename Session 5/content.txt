@@ -1,0 +1,1 @@
+﻿<p>Em xin ph&eacute;p nghỉ l&agrave;m v&igrave; h&ocirc;m nay em bị {reason}.</p>
