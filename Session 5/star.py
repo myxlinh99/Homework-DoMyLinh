@@ -3,7 +3,9 @@ shape ("turtle")
 speed(-1)
 left(36.5)
 def draw_star(x,y,l):
-    (x,y)
+    penup()
+    setpos(x,y)
+    pendown()
     for i in range (5):
         forward(l)
         left(144)

@@ -1,0 +1,5 @@
+C:\Users\Allie\Documents\Homework-DoMyLinh\Session 6\Session_6_Homework\Session_6_Homework\obj\x86\Debug\Session_6_Homework.csprojResolveAssemblyReference.cache
+C:\Users\Allie\Documents\Homework-DoMyLinh\Session 6\Session_6_Homework\Session_6_Homework\bin\Debug\Session_6_Homework.exe
+C:\Users\Allie\Documents\Homework-DoMyLinh\Session 6\Session_6_Homework\Session_6_Homework\bin\Debug\Session_6_Homework.pdb
+C:\Users\Allie\Documents\Homework-DoMyLinh\Session 6\Session_6_Homework\Session_6_Homework\obj\x86\Debug\Session_6_Homework.exe
+C:\Users\Allie\Documents\Homework-DoMyLinh\Session 6\Session_6_Homework\Session_6_Homework\obj\x86\Debug\Session_6_Homework.pdb
