@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour {
 	}
 	public void Result ()
 	{
-		result = (min + max + 1) / 2;
+		result = (min+ max+ 1)/2;
 	}
 	public void Yes()
 	{
@@ -28,10 +28,20 @@ public class GameController : MonoBehaviour {
 	}
 	public void Lower()
 	{
+		Result ();
 		max = result;
+		print (result);
 		int NewResult = (min+max+1)/2;
 		DisplayText.text = "Is your number " + NewResult + "?";
 
+	}
+	public void Higher()
+	{
+		Result ();
+		min = result;
+		print (result);
+		int NewResult = (min + max + 1) / 2;
+		DisplayText.text = "Is your number " + NewResult + "?";
 	}
 	// Update is called once per frame
 	void Update () {
