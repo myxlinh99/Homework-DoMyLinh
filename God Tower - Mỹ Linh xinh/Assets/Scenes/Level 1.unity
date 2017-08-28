@@ -558,7 +558,7 @@ MonoBehaviour:
   hintText: {fileID: 0}
   levelContent: LEVELS
   levelNumber: 1
-  levelAnswer: 
+  levelAnswer: kabul
 --- !u!4 &1241299400
 Transform:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SceneScript : MonoBehaviour {
 
@@ -13,8 +14,12 @@ public class SceneScript : MonoBehaviour {
 	public string levelContent = "LEVELS";
 	public string levelNumber;
 	public string levelAnswer;
-
 	string answer;
+	public List<Scene> SceneList;
+	int sceneCurrentIndex = 0;
+	int newScene;
+
+	
 	// Use this for initialization
 	void Start () {
 		levelText.text = levelContent;
@@ -25,12 +30,18 @@ public class SceneScript : MonoBehaviour {
 		answer = inputField.text;
 		CheckAnswer ();
 	}
+	public void OnBeginButtonClicked()
+	{
+		newScene = sceneCurrentIndex + 1;
+		SceneManager.LoadScene(newScene);
+	}
+
 	public void CheckAnswer()
 	{
 		if (answer == levelAnswer)
 		{
 			hintText.text = "Yayyyyyy";
-
+			OnBeginButtonClicked ();
 			//TODO: Change scene
 		}
 		else 
@@ -54,11 +65,7 @@ public class SceneScript : MonoBehaviour {
 		}
 	}
 
-	var Destination : String;
 
-	function LoadScene () {
-		Application.LoadLevel (Destination);
-	
 	// Update is called once per frame
 	void Update () {
 

@@ -51,7 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Level5Controller.cs" />
+     <Compile Include="Assets\Scripts\HintChanger.cs" />
+     <Compile Include="Assets\Scripts\Level4BarController.cs" />
      <Compile Include="Assets\Scripts\SceneScript.cs" />
+     <Compile Include="Assets\Scripts\StartScene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

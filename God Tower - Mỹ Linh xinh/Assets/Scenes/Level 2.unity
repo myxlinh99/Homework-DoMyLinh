@@ -558,7 +558,7 @@ MonoBehaviour:
   hintText: {fileID: 797146646}
   levelContent: LEVELS
   levelNumber: 2
-  levelAnswer: 
+  levelAnswer: solomon
 --- !u!4 &1241299400
 Transform:
   m_ObjectHideFlags: 0
